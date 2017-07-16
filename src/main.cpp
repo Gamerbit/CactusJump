@@ -60,6 +60,7 @@ void setupGraphics() {
   u8g2.setFont(u8g2_font_artossans8_8r);
 }
 
+//runs once at start up
 void setup(void) {
   setupGraphics();
   setupButton();
@@ -67,6 +68,7 @@ void setup(void) {
   delay(1000);
 }
 
+//loops while arduino is on
 void loop(void) {
   // In the loop so it's only true once, after this it's false again.
   // This is so it won't think the button is pressed again every loop.
