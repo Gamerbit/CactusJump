@@ -73,7 +73,7 @@ void loop(void) {
   // In the loop so it's only true once, after this it's false again.
   // This is so it won't think the button is pressed again every loop.
   bool buttonPressed = false;
-
+  //if button is pressed update buttonPressed
   if (button.update()) {
     buttonPressed = button.read();
     Serial.println("Button update");
