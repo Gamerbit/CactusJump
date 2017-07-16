@@ -13,7 +13,7 @@ if(MSVC)
     set(MSVC_COMPILER_DEFS "-D_VARIADIC_MAX=10")
 endif() 
 #-------------------
-# set common include folder for module
+# Set common include folder for module
 #-------------------
 set(COMMON_INCLUDES ${PROJECT_SOURCE_DIR}/lib/asset ${PROJECT_SOURCE_DIR}/lib/obstacle ${PROJECT_SOURCE_DIR}/lib/player ${PROJECT_SOURCE_DIR}/lib/shared)
 MESSAGE(STATUS "COMMON_INCLUDES: " ${COMMON_INCLUDES})
